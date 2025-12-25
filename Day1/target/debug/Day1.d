@@ -1,0 +1,1 @@
+/home/nithesh/WindowsDrive/Coding/Rust/AdventOfCode/Day1/target/debug/Day1: /home/nithesh/WindowsDrive/Coding/Rust/AdventOfCode/Day1/src/decoration.rs /home/nithesh/WindowsDrive/Coding/Rust/AdventOfCode/Day1/src/main.rs
