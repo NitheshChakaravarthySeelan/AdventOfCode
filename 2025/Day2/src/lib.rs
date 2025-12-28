@@ -30,4 +30,15 @@ pub fn is_valid_pattern(id: &str) -> bool {
 }
 
 /// for part 2
-pub fn is_invalid(id: &str) -> bool {}
+pub fn is_invalid(id: &str) -> bool {
+    let n = id.len();
+    for i in 1..=n / 2 {
+        let val = &id[..i];
+        let count = n / i;
+
+        if val.repeat(count) == id {
+            return true;
+        }
+    }
+    false
+}

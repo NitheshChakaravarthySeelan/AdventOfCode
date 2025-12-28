@@ -1,5 +1,5 @@
 mod lib;
-use lib::{get_range, is_valid_pattern, read_input};
+use lib::{get_range, is_invalid, is_valid_pattern, read_input};
 use std::env;
 
 fn main() {
@@ -17,7 +17,7 @@ fn main() {
 
         for i in s..=e {
             let val = i.to_string();
-            if is_valid_pattern(&val) {
+            if is_invalid(&val) {
                 total_sum += i;
             }
         }
