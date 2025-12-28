@@ -1,0 +1,68 @@
+# ------------------------------------
+# Cargo build output
+# ------------------------------------
+/target/
+
+# ------------------------------------
+# Cargo.lock
+# ------------------------------------
+# Libraries: ignore (recommended)
+# Binaries:   commit (recommended)
+# If this is a library crate, uncomment:
+# Cargo.lock
+
+# ------------------------------------
+# Rustfmt
+# ------------------------------------
+.rustfmt.toml.bak
+
+# ------------------------------------
+# IDE / Editor noise
+# ------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ------------------------------------
+# Coverage / profiling
+# ------------------------------------
+*.profraw
+*.profdata
+coverage/
+grcov/
+
+# ------------------------------------
+# Debugging / crash artifacts
+# ------------------------------------
+*.dSYM/
+*.pdb
+
+# ------------------------------------
+# Environment & secrets
+# ------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------
+# OS-specific junk
+# ------------------------------------
+Thumbs.db
+Desktop.ini
+
+# ------------------------------------
+# Optional: rust-analyzer cache (safe to ignore)
+# ------------------------------------
+.rust-analyzer/
+
+# ------------------------------------
+# Optional: build artifacts from cross-compilers
+# ------------------------------------
+*.exe
+*.dll
+*.so
+*.dylib
+

@@ -1,0 +1,1 @@
+/home/nithesh/WindowsDrive/Coding/Rust/AdventOfCode/2025/Day2/target/debug/Day2: /home/nithesh/WindowsDrive/Coding/Rust/AdventOfCode/2025/Day2/src/lib.rs /home/nithesh/WindowsDrive/Coding/Rust/AdventOfCode/2025/Day2/src/main.rs
